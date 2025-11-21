@@ -40,9 +40,9 @@ Users can type natural-language queries such as:
 …and the model returns the **closest matching books**, ranked by semantic similarity.  
 The system uses:
 
-- **Sentence Transformers** (`all-MiniLM-L6-v2` by default)
+- **Sentence Transformers** (`all-MiniLM-L6-v2`)
 - **Cosine similarity ranking**
-- **Dynamic corpus construction via Open Library**
+- **Dynamic vector store construction via Open Library**
 
 ---
 
