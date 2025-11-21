@@ -7,11 +7,11 @@ Inspired from graduate group project (forked repository bookworm_rec), with adde
 Bookworm is an AI-enhanced book discovery tool that helps users find books using **semantic natural-language search**, traditional search (author/genre), and book metadata from the **Open Library API**.  
 This version upgrades the original Bookworm project featuring:
 
-✔ **Retrieval-Augmented Generation (RAG)** style semantic search  
-✔ **Sentence Transformer embeddings** for text similarity  
-✔ **Open Library summaries as retrieval**  
-✔ **Streamlit UI** that runs locally 
-✔ Clean, dependency-free setup
+- **Retrieval-Augmented Generation (RAG)** style semantic search  
+- **Sentence Transformer embeddings** for text similarity  
+- **Open Library summaries as retrieval**  
+- **Streamlit UI** that runs locally 
+- Clean, dependency-free setup
 
 This project demonstrates practical AI engineering techniques, including semantic search, vector embeddings, API-based data ingestion, and lightweight app deployment.
 
