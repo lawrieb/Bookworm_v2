@@ -40,7 +40,7 @@ def embed_texts(texts: List[str]) -> np.ndarray:
 def rag_summary_search(
     query: str,
     top_k: int = 10,
-    candidate_limit: int = 40,
+    candidate_limit: int = 200,
 ) -> List[Dict[str, Any]]:
     """
     Full RAG-style summary search:
