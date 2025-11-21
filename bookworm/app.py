@@ -18,8 +18,7 @@ st.write(
 This is the **RAG-powered** version of Bookworm.
 
 - Data source: [Open Library](https://openlibrary.org) APIs  
-- Semantic “Book Summary” search using local embeddings  
-- Free deployment possible on Streamlit Community Cloud  
+- Semantic “Book Summary” search using local embeddings 
 """
 )
 
@@ -90,7 +89,7 @@ if st.button("Search") and query.strip():
                     col1, col2 = st.columns([1, 3])
                     with col1:
                         if book.get("cover_url"):
-                            st.image(book["cover_url"], use_container_width=True)
+                            st.image(book["cover_url"], width="stretch")
                     with col2:
                         st.markdown(f"### {book.get('title')}")
                         authors = ", ".join(book.get("authors", []))
