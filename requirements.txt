@@ -1,0 +1,16 @@
+# Core app
+streamlit
+pandas
+numpy
+requests
+
+# Embeddings (PyTorch backend)
+sentence-transformers>=2.2.2
+torch>=2.2.0
+
+# Transformers model support (pinned stable version)
+transformers>=4.37.2
+huggingface-hub>=0.20.0
+
+# Clean logging
+python-dotenv
